@@ -77,3 +77,7 @@ Below is a flowchart depicting the workflow of the `codecommit` module:
 -   [ ] Extend AI Capabilities
 -   [ ] Improve Configuration Options
 -   [ ] Improve interactive prompts and console output
+
+## License
+
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
