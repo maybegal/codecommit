@@ -1,0 +1,46 @@
+{
+	"name": "codecommit",
+	"version": "0.1.0",
+	"description": "Automate commit message generation with AI for free. Enhance your workflow with smart commit messages generated using AI, adaptable to your needs.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maybegal/codecommit.git"
+	},
+	"keywords": [
+		"commit",
+		"messages",
+		"AI-generated",
+		"GPT-4",
+		"automated",
+		"commits",
+		"Git",
+		"integration",
+		"smart",
+		"commits",
+		"workflow",
+		"automation",
+		"developer",
+		"tools",
+		"code",
+		"collaboration",
+		"intelligent",
+		"commits",
+		"code",
+		"quality",
+		"productivity",
+		"tools",
+		"development",
+		"efficiency",
+		"GitMoji"
+	],
+	"author": "MaybeGal",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/maybegal/codecommit/issues"
+	},
+	"homepage": "https://github.com/maybegal/codecommit#readme"
+}
