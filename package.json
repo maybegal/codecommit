@@ -42,5 +42,9 @@
 	"bugs": {
 		"url": "https://github.com/maybegal/codecommit/issues"
 	},
-	"homepage": "https://github.com/maybegal/codecommit#readme"
+	"homepage": "https://github.com/maybegal/codecommit#readme",
+	"dependencies": {
+		"g4f": "^1.4.3",
+		"inquirer": "^9.2.23"
+	}
 }
