@@ -20,6 +20,35 @@ codecommit
 
 This will initiate the script, which will generate and suggest a commit message for you based on the staged changes. You will have the option to review and approve the message before it gets committed.
 
+## Detailed Instructions
+
+### Prerequisites
+
+-   Node.js: Ensure you have Node.js installed.
+-   NPM: Ensure you have npm installed.
+
+### Running the Script
+
+1. Navigate to your git repository.
+
+2. Install codecommit package globally:
+
+```
+npm install -g codecommit
+```
+
+2. Stage your changes:
+
+```
+git add .
+```
+
+3. Run the `codecommit` command:
+
+```
+codecommit
+```
+
 ## Overview
 
 ### Purpose
@@ -39,28 +68,12 @@ The `codecommit` module:
 
 ### Workflow
 
-Below is a flowchart depicting the workflow of the codecommit module:
-[![](https://mermaid.ink/img/pako:eNpdkU1vwjAMhv-KlfO47dTDptJC-RgIATtsbQ8ZcdtopKmSFIYq_vuyELZoOcWvH792nIEcJEMSkeooz4eGKgP7tGjBnjjfGRuXMBo9wXiYa8i4gS12UnMj1eX5euPGFoA31I5L8gwN2MIameNTXlVlAK6l47J88sWNTyROSocZ1ZA0tK1R383T0HxizVtU1CAkUgjrvkKtbSs4c9NAttmPHsugzvea5RslRWfASIgZgyk_ovbcxBHTfIsnjud_tp6ZOmY-vGpUEHedkqe_AefhgIvcG_hXlAHjh1nm8Ye0W76BHli41Eu4k6WTVqE0c9L6LpEHIlAJypn9vuEHKYhpUGBBIntlVH0WpGivlqO9kbtLeyCRUT0-ECX7uiFRRY_aRn3H7EpTTmtFxa_a0fZdynt8_QZJOafV?type=png)](https://mermaid.live/edit#pako:eNpdkU1vwjAMhv-KlfO47dTDptJC-RgIATtsbQ8ZcdtopKmSFIYq_vuyELZoOcWvH792nIEcJEMSkeooz4eGKgP7tGjBnjjfGRuXMBo9wXiYa8i4gS12UnMj1eX5euPGFoA31I5L8gwN2MIameNTXlVlAK6l47J88sWNTyROSocZ1ZA0tK1R383T0HxizVtU1CAkUgjrvkKtbSs4c9NAttmPHsugzvea5RslRWfASIgZgyk_ovbcxBHTfIsnjud_tp6ZOmY-vGpUEHedkqe_AefhgIvcG_hXlAHjh1nm8Ye0W76BHli41Eu4k6WTVqE0c9L6LpEHIlAJypn9vuEHKYhpUGBBIntlVH0WpGivlqO9kbtLeyCRUT0-ECX7uiFRRY_aRn3H7EpTTmtFxa_a0fZdynt8_QZJOafV)
+Below is a flowchart depicting the workflow of the `codecommit` module:
+![](https://mermaid.ink/img/pako:eNpdkc9uwjAMxl_FyhleoIdNpeVPYaAJtsOW9pA1bhuNNFWSwlDFuy8LYauWU_z558-OM5BScSQRqY7qXDZMW3hJ8xbcienBuriA6fQBZkNmYCks7LFTRlilL4_XGzdzALyh8VxCl2jBFdbIPZ-KqipG4E55bknnX8KGROKldFgxA0nD2hrN3Twdm8-deYuaWYRESenct2iMawVnYRuIs2JUFBqt6LNWsrNgFcScw0Ic0QRu7okF3eNJ4PmfZ2AWnsmGV4Ma4q7T6vQ3XTaebk2DQXhCMWLCMBsafyi34hsYgLVPPY0XsvHSdiytvLS7S2RCJGrJBHd_N_wgObENSsxJ5K6c6c-c5O3Vcay36nBpSxJZ3eOEaNXXDYkqdjQu6jvu9pkKVmsmf9WOte9K3ePrN4jOpxM?type=png)
 
-## Detailed Instructions
+## Roadmap
 
-### Prerequisites
-
--   Node.js: Ensure you have Node.js installed.
--   NPM: Ensure you have npm installed.
-
-### Running the Script
-
-1. Navigate to your git repository.
-
-2. Stage your changes:
-
-```
-git add .
-```
-
-3. Run the `codecommit` command:
-
-```
-codecommit
-```
+-   [x] Initial Release
+-   [ ] Extend AI Capabilities
+-   [ ] Improve Configuration Options
+-   [ ] Improve interactive prompts and console output
