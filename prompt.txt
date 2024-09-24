@@ -10,15 +10,9 @@ Parameters:
     GitMoji Options: Use one of the following GitMojis to begin the commit message:
         ✨ (Introduce new features)
         🐛 (Fix a bug)
-        📝 (Add or update documentation)
         ♻️ (Refactor code)
-        ⬆️ (Upgrade dependencies)
-        🔧 (Add or update configuration files)
-        💡 (Add or update comments in source code)
-        🎨 (Improve structure/format of the code)
         ⚡️ (Improve performance)
         🚑️ (Critical hotfix)
-        💄 (Add or update the UI and style files)
         🎉 (Begin a project)
         🔒️ (Fix security issues)
         🔐 (Add or update secrets)
@@ -34,7 +28,6 @@ Parameters:
         refactor: For code restructuring without functionality changes
         perf: For performance improvements
         test: For tests and corrections
-
 
 Format: The commit message should have two parts:
     1. Main message: Start with the selected emoji and Conventional Commit keyword.
@@ -53,5 +46,7 @@ Specifications:
     Language: Write in English.
 
 Objective: Create a commit message that is informative, clear, and detailed, ensuring anyone who reads it can understand the changes and their purpose.
+
+Note: When analyzing the git diff, prioritize changes in core algorithm files, new function implementations, or substantial modifications to existing code. Disregard changes in project files, documentation updates, or minor tweaks unless they are crucial to understanding the main code changes.
 
 Output (git diff --staged):
